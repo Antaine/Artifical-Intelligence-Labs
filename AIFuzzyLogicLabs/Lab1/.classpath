@@ -6,6 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="E:/Workspaces/Java/AIFuzzyLogicLabs/jFuzzyLogic.jar"/>
+	<classpathentry kind="lib" path="jFuzzyLogic.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
