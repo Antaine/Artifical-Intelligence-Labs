@@ -40,6 +40,11 @@ FUNCTION_BLOCK getSalary
 		TERM average := trape 10 16 19 25;
 		TERM high := (20, 0) (35, 1);
 		METHOD : COG;
+		//METHOD : MM;
+		//METHOD : LM;
+		//METHOD : RM;
+		//METHOD : COGS;
+		//METHOD : COGF;
 		DEFAULT := 25;
 	END_DEFUZZIFY
 	
