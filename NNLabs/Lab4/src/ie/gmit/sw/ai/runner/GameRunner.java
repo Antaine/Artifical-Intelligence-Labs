@@ -23,6 +23,7 @@ public class GameRunner {
 	public GameRunner() throws Exception {
 		NeuralNetwork nn = new NeuralNetwork(Activator.ActivationFunction.Sigmoid, 4, 3, 4);
 		BackpropagationTrainer trainer = new BackpropagationTrainer(nn);
+		
 		trainer.train(data, expected, 0.6, 10000);
 		
 		int testIndex = 11;
